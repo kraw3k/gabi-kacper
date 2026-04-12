@@ -230,7 +230,7 @@ p {
 
 .place-item:not(:last-child),
 .simple-block:not(:last-child),
-.faq-item  {
+.faq-item {
   padding: 0.15rem 0 1.1rem;
   border-bottom: 1px solid var(--line);
 }
@@ -249,7 +249,7 @@ p {
   color: var(--muted);
 }
 
-.detail-list li + li {
+.detail-list li+li {
   margin-top: 0.5rem;
 }
 
@@ -265,7 +265,7 @@ p {
 
 .site-footer {
   padding: 2rem 0 2.5rem;
-  background: var(--bg-alt);
+  /* background: var(--bg-alt); */
 }
 
 .footer-shell {
@@ -275,6 +275,7 @@ p {
 }
 
 @media (min-width: 760px) {
+
   .hero-grid,
   .place-list,
   .simple-columns,
