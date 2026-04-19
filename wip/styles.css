@@ -265,7 +265,7 @@ p {
 
 .site-footer {
   padding: 2rem 0 2.5rem;
-  /* background: var(--bg-alt); */
+  background: var(--bg-alt);
 }
 
 .footer-shell {
