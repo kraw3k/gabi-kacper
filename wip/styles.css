@@ -121,7 +121,7 @@ p {
 }
 
 .hero-lead {
-  max-width: 28rem;
+  /* max-width: 28rem; */
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -175,6 +175,10 @@ p {
   background: var(--bg);
 }
 
+.footer-plain {
+  background: var(--bg) !important;
+}
+
 .section-tint {
   background: var(--bg-alt);
 }
@@ -186,12 +190,7 @@ p {
 }
 
 .section-heading {
-  /* max-width: 32rem; */
   margin-bottom: 1.75rem;
-}
-
-.section-heading.narrow {
-  max-width: 28rem;
 }
 
 .section-heading p {
@@ -246,6 +245,7 @@ p {
   margin: 0.35rem 0 0;
   padding-left: 1.1rem;
   color: var(--muted);
+  list-style: outside circle;
 }
 
 .detail-list li+li {
