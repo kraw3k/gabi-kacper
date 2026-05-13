@@ -186,7 +186,7 @@ p {
 }
 
 .section-heading {
-  max-width: 32rem;
+  /* max-width: 32rem; */
   margin-bottom: 1.75rem;
 }
 
@@ -232,7 +232,6 @@ p {
 .simple-block:not(:last-child),
 .faq-item {
   padding: 0.15rem 0 1.1rem;
-  border-bottom: 1px solid var(--line);
 }
 
 .text-link {
@@ -280,11 +279,11 @@ p {
   .place-list,
   .simple-columns,
   .faq-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .simple-columns {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .hero-grid {
@@ -317,5 +316,11 @@ p {
 
   .timeline-time {
     font-size: 0.95rem;
+  }
+
+  .place-item:not(:last-child),
+  .simple-block:not(:last-child),
+  .faq-item {
+    border-bottom: 1px solid var(--line);
   }
 }
