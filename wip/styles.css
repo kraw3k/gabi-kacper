@@ -234,11 +234,37 @@ p {
 }
 
 .text-link {
-  display: inline-block;
-  margin-top: 0.8rem;
-  color: var(--accent-dark);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.65rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 10px;
+  background: var(--accent-dark);
+  color: #fdf8f2;
   font-weight: 600;
-  text-decoration-thickness: 1px;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 4px rgba(48, 37, 29, 0.08);
+  transition: background 0.16s ease, box-shadow 0.16s ease;
+}
+
+.text-link:hover {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(48, 37, 29, 0.12);
+}
+
+.text-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.text-link:active {
+  box-shadow: 0 1px 3px rgba(48, 37, 29, 0.1);
 }
 
 .detail-list {
